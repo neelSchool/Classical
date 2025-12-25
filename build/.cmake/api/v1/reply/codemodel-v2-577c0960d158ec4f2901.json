@@ -7,8 +7,16 @@
 				{
 					"build" : ".",
 					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
 					"projectIndex" : 0,
-					"source" : "."
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
 				}
 			],
 			"name" : "Debug",
@@ -19,10 +27,23 @@
 					[
 						0
 					],
-					"name" : "Project"
+					"name" : "Classical",
+					"targetIndexes" : 
+					[
+						0
+					]
 				}
 			],
-			"targets" : []
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "kzgcommit::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kzgcommit-Debug-f57ab9c868df4598d9a0.json",
+					"name" : "kzgcommit",
+					"projectIndex" : 0
+				}
+			]
 		}
 	],
 	"kind" : "codemodel",
